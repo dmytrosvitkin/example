@@ -3,45 +3,23 @@
   
   <title>Example HTML</title>
   <style>
-    body{font-family:monospace}
-    .wrapper {
-      display: inline-block;
+    body{
+      font-family:monospace;
+      padding: 8px;
     }
-    .top-layout {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      width: 100%; /* Matches the width of the table */
-    }
-    .content-area {
-      display: flex;
-      flex-direction: column;
-    }
-    h1 {
-      margin: 0 0 10px 0;
-    }
-    p {
-      margin: 0;
-    }
-    .svg-link {
-      display: block;
-      height: calc(1em * 2 + 10px + 1em); 
-      aspect-ratio: 1 / 1;
-    }
-    .svg-link svg {
-      width: 100%;
-      height: 100%;
-      display: block;
-    }
+
+    h1{margin:0 0 10px 0}
+    p{margin:0}
+    
     table{
       border-collapse:collapse;
-      margin:20px 0;
+      margin:20px 0
     }
     td{
-      border:1px solid #999;
+      border:1px solid black;
       padding:15px 20px;
       text-align:center;
-      font-size:1.2em;
+      font-size:1.2em
     }
   </style>
 
@@ -52,17 +30,8 @@
 
 </head>
 <body id="do">
-  <div class="wrapper">
-    <div class="top-layout">
-      <div class="content-area">
         <h1>Example HTML</h1>
         <p>This page is used as an example page to verify connection.</p>
-      </div>
-      <a href="https://github.com/Dmytro-Svitkin/example" class="svg-link">
-        <svg width="1024"height="1024"viewBox="0 0 1024 1024"version="1.1"id="svg1"xml:space="preserve"xmlns="http://www.w3.org/2000/svg"xmlns:svg="http://www.w3.org/2000/svg"><defs id="defs1"/><g id="g14"><path style="fill:#b20000;fill-rule:evenodd"id="path3"transform="scale(1.28)"d="m 393.89648,87.712891 a 87.5,87.5 0 0 0 -45.32812,16.498049 l -213.98828,155.4707 a 87.5,87.5 0 0 0 -31.78516,97.82813 l 81.73633,251.55859 a 87.5,87.5 0 0 0 83.2168,60.46094 h 264.5039 a 87.5,87.5 0 0 0 83.2168,-60.46094 L 697.20508,357.50977 A 87.5,87.5 0 0 0 665.41992,259.68164 L 451.43164,104.21094 A 87.5,87.5 0 0 0 393.89648,87.712891 Z"/><path style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd"id="path8"transform="scale(1.28)"d="m 394.76758,100.18359 a 75,75 0 0 0 -38.85156,14.14063 l -213.98829,155.4707 a 75,75 0 0 0 -27.24609,83.85156 l 81.73633,251.5586 a 75,75 0 0 0 71.33008,51.82422 h 264.5039 a 75,75 0 0 0 71.33008,-51.82422 l 81.73633,-251.5586 A 75,75 0 0 0 658.07227,269.79492 L 444.08398,114.32422 a 75,75 0 0 0 -49.3164,-14.14063 z"/><path style="fill:#b20000;fill-opacity:1;fill-rule:evenodd"id="path12"transform="scale(1.28)"d="m 395.64062,112.65234 a 62.5,62.5 0 0 0 -32.37695,11.78321 l -213.98828,155.4707 a 62.5,62.5 0 0 0 -22.70508,69.87891 l 81.73633,251.55859 a 62.5,62.5 0 0 0 59.44141,43.18555 h 264.5039 a 62.5,62.5 0 0 0 59.44141,-43.18555 L 673.42969,349.78516 A 62.5,62.5 0 0 0 650.72461,279.90625 L 436.73633,124.43555 a 62.5,62.5 0 0 0 -41.09571,-11.78321 z"/></g><path style="fill:#ffffff;fill-opacity:1;stroke-width:1.28"d="m 592.54056,239.80767 c -24.15949,1.08142 -67.65616,17.97481 -93.2102,117.11524 -192.13634,14.67233 -213.61213,220.64992 -110.87023,266.67805 -110.55797,117.92367 4.43543,120.25448 12.40253,94.3002 7.96709,-25.95427 85.93159,-81.67939 206.11042,-62.76512 53.71288,8.45358 51.86089,14.01657 68.19765,-14.61005 33.31111,-60.75327 46.24407,-204.02463 -109.24023,-264.98555 6.97844,-37.00385 31.1955,-48.74089 57.68011,-74.34015 26.48474,-25.59741 2.68175,-62.90319 -31.07005,-61.39262 z m -99.22021,183.74538 c 0.94387,6.34264 -8.08982,140.27639 -55.90512,141.57779 -90.98548,2.47489 -50.54725,-146.05828 55.90512,-141.57779 z m 62.11013,17.48503 c 8.58123,2.42545 111.56427,57.285 61.83512,146.57531 -46.35263,-5.86958 -80.84727,-7.24074 -100.7852,-1.08501 40.22694,-20.15727 38.95008,-145.4903 38.95008,-145.4903 z"id="path2"/></svg>
-      </a>
-    </div>
-    <br>
     <table>
 
       <tbody><tr style="background-color:#F0FFFF">
